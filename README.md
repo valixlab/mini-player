@@ -14,7 +14,7 @@ Le player de spotify est trop gros, et le rapetisser est une feature premium. Al
 
 # INSTALLATION
 
-📦 1) Téléchargez le .zip puis dézipper-le. C'est dans ce dossier que seront enregistrer toutes les données, placez-le dans un endroit sûr (par exemple le dossier "~/")
+📦 1) Téléchargez le .zip puis dézippez-le. C'est dans ce dossier que seront enregistrées toutes les données, placez-le dans un endroit sûr (par exemple le dossier "~/")
 
 ⚙️ 2) Lancez le script d'installation :
 
@@ -22,7 +22,7 @@ Le player de spotify est trop gros, et le rapetisser est une feature premium. Al
 bash setup.sh
 ```
 
-🔓 3) Un raccourci est placé sur votre bureau. Faites un clic-droit dessus puis "autoriser l'exécution".
+🔓 3) Un raccourci est placé sur votre bureau. Faites un clic-droit dessus puis autorisez l'exécution.
 
 🥳 Votre mini player est prêt !
 
