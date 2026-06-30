@@ -3,7 +3,9 @@
 Le player de spotify est trop gros, et le rapetisser est une feature premium. Alors je l'ai rendu _gratuit_.
 
 ✅ Simple d'installation et d'utilisation
+
 ✅ Léger (lightweight)
+
 ✅ Fonctionne sur n'importe quel système APT
 
 🎵 Le player récupère automatiquement votre flow de musique depuis _playerctl_ et vous l'affiche joliement. Il reste discrêtement en haut de toutes vos fenêtre pour quand même pouvoir y accéder quand vous jouer ou vous travailler.
