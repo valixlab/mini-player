@@ -1,4 +1,4 @@
-# Mini player
+# Mini player pour spotify
 
 ## Le player de spotify est trop gros, et le rapetisser est une feature premium. Alors je l'ai rendu _gratuit_.
 
@@ -13,3 +13,5 @@ Lancez le setup pour installer toutes les dépendances
 ``bash setup.sh``
 
 Une fois fait, un raccourci est placé sur votre bureau. Faites un clic-droit dessus puis "autoriser l'exécution". Votre mini player est prêt !
+
+-> L'application enregistre automatique là où vous la positionner et la couleur de thème choisi.
