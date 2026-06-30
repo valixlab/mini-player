@@ -16,4 +16,4 @@ Une fois fait, un raccourci est placé sur votre bureau. Faites un clic-droit de
 
 -> L'application enregistre automatique là où vous la positionner et la couleur de thème choisi.
 
-!(https://i.imgur.com/fUsFzvJ.png "mini-player")
+![Capture d'écran du mini-player](https://i.imgur.com/fUsFzvJ.png)
