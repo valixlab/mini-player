@@ -354,7 +354,7 @@ if __name__ == '__main__':
                     #pause-container {
                         width: 24px;
                         height: 24px;
-                        background: rgb(255,255,255,0.92);
+                        background: rgba(var(--c-rgb), 0.9);
                         border-radius:100%;
                         display: flex;
                         align-items: center;
@@ -362,7 +362,7 @@ if __name__ == '__main__':
                         transition: background 300ms;
                     }
                     #pause-container:hover {
-                        background: rgb(255,255,255,0.6);
+                        background: rgba(var(--c-rgb), 0.6);
                         cursor: pointer;
                     }
                     #icon-pause {
