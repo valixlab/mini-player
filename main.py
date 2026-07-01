@@ -16,7 +16,6 @@ except Exception:
     settings = {"x":(w/2-190),"y":(h/2-44),"color":"#1db954","auto":"false"}
     with open(f"{os.getcwd()}/settings.json", "w") as f:
             json.dump(settings, f)
-print(settings)
 
 def save():
     global window
@@ -36,13 +35,15 @@ def get_metadata():
     position = run_playerctl(["position"])
     duree = run_playerctl(["metadata", "--format", "{{ mpris:length }}"])
     status = run_playerctl(["status"])
+    volume = run_playerctl(["volume"])
     color = settings["color"]
     auto = settings["auto"]
     return {
         "titre": titre, "artiste": artiste,
         "pochette": pochette, "position": position,
         "duree": duree, "status": status,
-        "color":color,"auto":auto
+        "color":color,"auto":auto,
+        "volume":volume
     }
 
 def update_loop(window: webview.Window):
