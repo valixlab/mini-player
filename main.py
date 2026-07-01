@@ -4,19 +4,24 @@ import threading
 import os
 import json
 import time
+import tkinter
 
 try:
     with open(f"{os.getcwd()}/settings.json","r",encoding="utf-8") as f:
         settings = json.load(f)
 except Exception:
-    settings={"x":0,"y":0,"color":"#1DB954"}
-
+    root = tkinter.Tk()
+    root.withdraw()
+    w, h = root.winfo_screenwidth(), root.winfo_screenheight()
+    settings = {"x":(w/2-190),"y":(h/2-44),"color":"#1db954","auto":"false"}
+    with open(f"{os.getcwd()}/settings.json", "w") as f:
+            json.dump(settings, f)
 print(settings)
 
 def save():
     global window
-    with open(f"{os.getcwd()}/settings.json", "w") as fichier:
-            json.dump({"x":window.x, "y":window.y, "color":settings["color"], "auto":settings["auto"]}, fichier)
+    with open(f"{os.getcwd()}/settings.json", "w") as f:
+            json.dump({"x":window.x, "y":window.y, "color":settings["color"], "auto":settings["auto"]}, f)
 
 def run_playerctl(args, timeout=1):
     try:
